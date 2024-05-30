@@ -1,0 +1,92 @@
+footer {
+    margin-top: auto;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.hover-effect:hover {
+    opacity: .8;
+    transition: .3s ease-in-out;
+}
+
+/* Creation Styles */
+.btn-icon {
+    padding: 5px 10px;
+    background: rgb(154, 196, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.task-input-div {
+    position: relative;
+}
+
+.basic-input {
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-error {
+    padding: 0 8px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    color: red;
+    font-size: 10px;
+    background: white;
+    border: 1px solid red;
+}
+
+/* List and Edit/Remove Styles */
+.task-list > div {
+    padding-left: 15px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.check-ctr {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.title-display {
+    margin-left: 10px;
+    margin-right: auto;
+    width: 100%;
+}
+
+.list-side-ctr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 1px 5px;
+}
+
+.list-side-ctr.side-green {
+    color: rgb(52, 96, 52);
+}
+
+.list-side-ctr.side-red {
+    left: 25px;
+    color: rgb(96, 52, 52);
+}
